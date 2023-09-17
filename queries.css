@@ -1,0 +1,129 @@
+/* media queries @1200px */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .hero-header {
+    font-size: 5.5rem;
+  }
+}
+/* media queries @950px */
+@media (max-width: 60em) {
+  .hero-header {
+    font-size: 4.4rem;
+  }
+}
+/* media queries @750px */
+@media (max-width: 47em) {
+  .hero-header {
+    font-size: 3.5rem;
+  }
+  .container {
+    padding: 0 2.4rem;
+  }
+}
+/* media queries @650px */
+@media (max-width: 41em) {
+  .hero-header {
+    font-size: 4rem;
+  }
+}
+
+/* media queries @ 600 */
+@media (max-width: 38em) {
+  .logo {
+    font-size: 2rem;
+  }
+  .hero {
+    margin-bottom: 2.4rem;
+    height: 350px;
+  }
+  .hero-img {
+    height: 300px;
+  }
+  .hero-header {
+    font-size: 3.5rem;
+  }
+  .galleries {
+    margin-bottom: 1.8rem;
+  }
+  .featured-logo {
+    font-size: 1.8rem;
+  }
+  .caption {
+    font-size: 0.8rem;
+  }
+  .projects {
+    font-size: 2.4rem;
+  }
+  .cta {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    align-items: center;
+    justify-self: center;
+
+    /* text-align: center; */
+  }
+  .cta-header {
+    margin-bottom: 1rem;
+  }
+  .cta-text {
+    font-size: 1.2rem;
+  }
+  article {
+    text-align: center;
+  }
+
+  .hero-note,
+  button,
+  label {
+    font-size: 1rem;
+  }
+  .g-text {
+    font-size: 1rem;
+  }
+  .g-caption {
+    font-size: 1rem;
+  }
+  .hero-link:link,
+  .hero-link:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+}
+/* media queries @500px */
+@media (max-width: 32em) {
+  .hero-header {
+    font-size: 3rem;
+  }
+  .hero-note {
+    font-size: 0.8rem;
+  }
+  .gal-fig {
+    align-items: end;
+  }
+  .link-cont {
+    align-items: center;
+    margin-bottom: 0.6rem;
+  }
+}
+/* media queries @450px */
+@media (max-width: 29em) {
+  .hero-header {
+    font-size: 2.4rem;
+  }
+  .cta-text {
+    font-size: 0.8rem;
+  }
+  .featured-in {
+    margin-bottom: 1rem;
+  }
+}
+/* media queries @350px */
+@media (max-width: 22em) {
+  .hero-header {
+    font-size: 1.8rem;
+  }
+}
